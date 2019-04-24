@@ -18,4 +18,4 @@
 | LIGHT_SET          |    9 | 0-255 (Light ID); 0/1 (Red/Green) | Byte | 3 |
 | LIGHT_STATUS       |   10 | 0-255 (Light ID); 0/1 (Red/Green) | Byte | 3 |
 | REQUEST_INFO       |   11 | -            | None         |      1 |
-| DEVICE_INFO        |   12 | 0/1 (Train/Swicth) | Byte   |      2 |
+| DEVICE_INFO        |   12 | 0/1 (Train/Swicth); 0-255 (Device ID) | Byte | 3 |
