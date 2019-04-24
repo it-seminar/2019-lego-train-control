@@ -9,7 +9,7 @@
 | Name               | Key  | Value(s)     | Type         | Length |
 | :----------------- | ---: | :----------- | :----------- | -----: |
 | TRAIN_FORWARD      |    2 | 0/1 (Fwd/Bck)| Byte         |      2 |
-| TRAIN_SPEEP_SET    |    3 | speed        | Unsigned int |      5 |
+| TRAIN_SPEED_SET    |    3 | speed        | Unsigned int |      5 |
 | TRAIN_BREAK        |    4 | -            | None         |      1 |
 | TRAIN_SPEED_STATUS |    5 | speed        | Unsigned int |      5 |
 | TRAIN_POSITION     |    6 | magnet count | Int          |      5 |
